@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #252525;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Start Header */
+li, a, button {
+  text-decoration: none;
+  font-family: "Courgette", cursive;
+  font-weight: bolder;
+  font-size: 16px;
+  color: #edf0f1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
+  background-color: #444;
+  transition: all 1s ease-in-out;
+}
+
+.logo {
+  cursor: pointer;
+  display: inline-block;
+  transition: all 1s ease-in-out;
+  color: #4c97f5;
+  font-family: "Courgette", cursive;
+}
+
+.logo:hover {
+  color: #b1d5ec;
+}
+
+.nav_Links {
+  list-style: none;
+}
+
+.nav_Links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_Links li a {
+  transition: all 1s ease-in-out;
+}
+
+.nav_Links li a:hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.7);
+}
+
+/* End Header */
+/* Start Banner image */
+.image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text h1 {
+  color: white;
+  margin: 6px auto;
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  font-weight: bold;
+  padding: 5px 0px;
+  font-size: 50px;
+  font-family: "Courgette", cursive;
+  margin-bottom: 10px;
+  transition: all 1s ease-in-out;
+}
+
+.text h1:hover {
+  color: #4c97f5;
+  border-top: 5px solid #4c97f5;
+  border-bottom: 5px solid #4c97f5;
+}
+
+.text .button {
+  padding: 9px 30px;
+  background-image: radial-gradient(circle farthest-corner at 12.3% 19.3%, rgba(85, 88, 218, 1) 0%, rgba(95, 209, 249, 1) 100.2%);
+  color: rgba(225, 0, 0, 0.8);
+  text-shadow: 1px 1px 0px #FFEB3B, -1px -1px 0px #FFEB3B;
+  border: 2.5px solid #FFEB3B;
+  border-radius: 0px;
+  font-size: 17px;
+  transition: all 1s ease-in-out;
+}
+
+.text .button:hover {
+  color: rgba(225, 0, 0, 1);
+  text-shadow: 1px 1px 0px #FFEB3B, -1px -1px 0px #FFEB3B;
+  border: 2.5px solid #f7be16;
+}
+
+/* End Banner image */
+/* Start content */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%;
+}
+
+/* End content */
